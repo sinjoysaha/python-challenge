@@ -1,2 +1,2 @@
 # python-challenge
-Solutions to pythonchallenge.com
+Solutions to [Python Challenge](http://www.pythonchallenge.com) problems.
