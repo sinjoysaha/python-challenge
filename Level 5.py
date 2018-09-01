@@ -1,4 +1,5 @@
-import urllib.request, urllib, pickle
+import urllib.request
+import pickle
 
 url = "http://www.pythonchallenge.com/pc/def/peak.html"
 req = urllib.request.urlopen(url)
@@ -23,5 +24,5 @@ data = pickle.loads(html)
 for i in data:
     s = ""
     for j in i:
-        s += j[0]*j[1]
+        s += j[0] * j[1]
     print(s)

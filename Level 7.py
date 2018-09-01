@@ -14,10 +14,10 @@ w = img.width
 h = img.height
 row = []
 for i in range(w):
-    row += [img.getpixel((i, h/2))]
+    row += [img.getpixel((i, h / 2))]
 
 print(row)
-#Discarding duplicates
+# Discarding duplicates
 print()
 row = row[::7]
 print(row)

@@ -6,13 +6,13 @@ html = response.read()
 
 print(response)
 
-#print(html)
+# print(html)
 
 print("\nPrinting First few characters (from 500 to 2500):\n")
 print(html[500:2500])
 
 ss = str(html[500:])
-#print(ss)
+# print(ss)
 
 print("\nChecking character frequency:\n")
 l = []
@@ -21,13 +21,13 @@ for i in range(256):
 
 for i in ss:
     ch = ord(i)
-    l[ch]+=1
+    l[ch] += 1
 
 for i in range(256):
     if l[i] > 0:
-        print(chr(i)+" : "+str(l[i]))
+        print(chr(i) + " : " + str(l[i]))
 
-        
+
 rl = "!#$%&()*+@[\]^_n{}"
 new_ss = ""
 for i in ss:
